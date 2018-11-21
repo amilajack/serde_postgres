@@ -1,7 +1,15 @@
 [package]
-name = "serde_postgres"
-version = "0.1.0"
 authors = ["a.power@1aim.com"]
+description = "Easily deserialize postgres rows"
+license = "MIT/Apache-2.0"
+name = "serde_postgres"
+homepage = "https://github.com/1aim/serde_postgres"
+repository = "https://github.com/1aim/serde_postgres.git"
+version = "0.1.0"
+
+[badges]
+[badges.travis-ci]
+repository = "1aim/serde_postgres"
 
 [dependencies]
 serde = "1.0.80"
