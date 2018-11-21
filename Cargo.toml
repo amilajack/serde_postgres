@@ -1,0 +1,11 @@
+[package]
+name = "serde_postgres"
+version = "0.1.0"
+authors = ["a.power@1aim.com"]
+
+[dependencies]
+serde = "1.0.80"
+postgres = "0.15.2"
+
+[dev-dependencies]
+serde_derive = "1.0.80"
